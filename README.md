@@ -35,10 +35,10 @@ python
 Copy code
 from zipfile import ZipFile
 
-# Specify the correct path to your downloaded ZIP file
+check file path (this is personal to your machine)
 dataset = '/Users/aryan/GitHub Projects/face-mask-dataset.zip'
 
-# Extract the contents of the ZIP file
+Extract zip files
 with ZipFile(dataset, 'r') as zip:
     zip.extractall('/Users/aryan/GitHub Projects/face-mask-dataset')
     print('The dataset is extracted')
