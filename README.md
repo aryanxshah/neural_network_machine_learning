@@ -3,6 +3,8 @@ Project: Face Mask Detection - Neural Network Project
 
 Overview
 This project is designed to detect whether a person is wearing a face mask or not using a Convolutional Neural Network (CNN). The model is trained on a dataset containing images of people with and without masks from Kaggle Datasets. The project uses TensorFlow and Keras for building the model and OpenCV for image processing.
+
+
 Dataset
 
 The dataset consists of images of people with and without masks, stored in the following directory structure:
